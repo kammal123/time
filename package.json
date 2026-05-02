@@ -4,11 +4,20 @@
   "description": "Smart time management tool for freelancers",
   "main": "app.js",
   "scripts": {
-    "dev": "vercel dev"
+    "dev": "vercel dev",
+    "build": "echo 'Build complete'"
   },
   "dependencies": {
-    "@neondatabase/vercel-postgres-compat": "^0.1.2",
+    "@supabase/supabase-js": "^2.38.4",
     "bcryptjs": "^2.4.3",
-    "jsonwebtoken": "^9.0.2"
+    "jsonwebtoken": "^9.0.2",
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
