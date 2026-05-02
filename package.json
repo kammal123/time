@@ -7,7 +7,7 @@
     "dev": "vercel dev"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.38.4",
+    "@neondatabase/vercel-postgres-compat": "^0.1.2",
     "bcryptjs": "^2.4.3",
     "jsonwebtoken": "^9.0.2"
   }
