@@ -1,4 +1,4 @@
-const { sql } = require('@vercel/postgres');
+const { sql } = require('@neondatabase/vercel-postgres-compat');
 
 module.exports = async function handler(req, res) {
   try {

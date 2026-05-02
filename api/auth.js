@@ -1,4 +1,4 @@
-const { sql } = require('@vercel/postgres');
+const { sql } = require('@neondatabase/vercel-postgres-compat');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 
