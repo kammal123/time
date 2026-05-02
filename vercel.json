@@ -1,0 +1,14 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "./",
+  "env": {
+    "SUPABASE_URL": "@SUPABASE_URL",
+    "SUPABASE_ANON_KEY": "@SUPABASE_ANON_KEY"
+  },
+  "functions": {
+    "api/**/*.js": {
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  }
+}
